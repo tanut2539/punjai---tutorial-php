@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^check-([0-9]+)\.php$ check.php?donate-id=$1
